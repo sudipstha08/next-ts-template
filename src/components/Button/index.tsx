@@ -1,15 +1,14 @@
-import React, {FC} from 'react'
+import React, { FC } from 'react'
 
 interface IProps {
-
+  label: string
 }
-const Button: FC<IProps> = () => {
-  console.log("hello")
+const Button: FC<IProps> = ({ label }) => {
   return (
     <div>
-      <button>button</button>
+      <button>{label}</button>
     </div>
   )
 }
 
-export { Button}
+export { Button }
