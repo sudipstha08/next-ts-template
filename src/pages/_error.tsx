@@ -1,3 +1,7 @@
+/**
+ * Custom error page
+ */
+
 function Error({ statusCode }) {
   return (
     <p>
