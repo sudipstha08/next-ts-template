@@ -10,7 +10,8 @@
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
     "lint-staged": "lint-staged",
     "fix": "yarn lint:ts --fix",
-    "format": "eslint -c .eslintrc.js --ignore-path -eslintignore --fix"
+    "format": "eslint -c .eslintrc.js --ignore-path .eslintignore --fix",
+    "git add": "git add ."
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.25.0",
@@ -24,11 +25,16 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "next": "10.2.2",
+    "pre-commit": "^1.2.2",
     "prettier": "^2.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-query": "^3.16.0",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "stylelint": "^14.5.2",
+    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
   },
   "devDependencies": {
     "@types/react": "17.0.6",

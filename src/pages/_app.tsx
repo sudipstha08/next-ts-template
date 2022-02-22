@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <QueryClientProvider client={queryClient}>
         <GlobalStyles />
-        {test}
+        {tests}
         <Component {...pageProps} />
       </QueryClientProvider>
     </>
