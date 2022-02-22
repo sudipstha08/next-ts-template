@@ -1,10 +1,10 @@
 ## Next.js TS template :books:
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a NextJS Template with Typescript
 
 ## Basic commands :wrench:
 
-|     commands   |      description           |
-|----------------|----------------------------|
+|     Commands   |      Description           |
+| -------------- |--------------------------- |
 | `yarn dev`     | run the development server |
 | `yarn install` | install dependencies       |
 | `yarn lint`	   | run linter                 |
@@ -13,9 +13,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Tech Stacks :package:
 
-|     tech          |      description           |
+|     Tech          |      Description           |
 |-------------------|----------------------------|
 | `next`            | server side rendering      |
 | `axios`           | promise based HTTP client  |
 | `react-query`     | data fetching library      |
 | `eslint/prettier` | linting                    |
+| `styled-components` | CSS on JS                |
+
+Happy coding :v:
