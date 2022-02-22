@@ -1,0 +1,6 @@
+node_modules
+**/build/**
+**/.next/**
+next-env.d.ts
+package.json
+README.md
