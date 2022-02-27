@@ -20,5 +20,13 @@ This is a NextJS Template with Typescript
 | `react-query`     | data fetching library      |
 | `eslint/prettier` | linting                    |
 | `styled-components` | CSS on JS                |
+| `formik`            | form library             |
+| `yup`               | object schema validation |
+
+## References
+1. https://nextjs.org/docs/getting-started
+2. https://github.com/jquense/yup
+3. https://formik.org/
+4. https://react-query.tanstack.com/
 
 Happy coding :v:

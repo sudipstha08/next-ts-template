@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="home">
       <Head>
-        <title>IndexPage</title>
+        <title>Index | Skeleton</title>
         <meta name="description" content="Index page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
