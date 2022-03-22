@@ -1,9 +1,17 @@
 import React, { useEffect } from 'react'
 import Head from 'next/head'
-import { Button } from '@src/components'
+import { Button } from '@components'
 import FavIcon from '@public/assets/imgs/avatar.svg'
 import { theme } from '@utils'
 import { fetchData } from '@services'
+import styled from 'styled-components'
+
+const MainContainer = styled.main`
+  padding: 1rem 2rem;
+  & div {
+    padding: 0.5rem 0;
+  }
+`
 
 const Home = () => {
   useEffect(() => {
@@ -18,13 +26,15 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        This is the index page 🔥
-        <div>Happy coding 😉</div>
+      <MainContainer>
+        This is the awesome Next JS template🔥
         <Button label="hello">Say Hello</Button>
-        <FavIcon />
-        {theme.base}
-      </main>
+        <div>
+          <FavIcon />
+        </div>
+        <div>{theme.base}</div>
+        <div>Happy coding 😉</div>
+      </MainContainer>
     </div>
   )
 }
