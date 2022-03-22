@@ -1,19 +1,21 @@
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
+  presets: ['next/babel'],
   plugins: [
+    'inline-react-svg',
     [
       'module-resolver',
       {
         root: ['./'],
         alias: {
-          '~/src': './src',
-          '~/public': './public',
-          '~/components': './src/components',
-          '~/services': './src/services',
-          '~/utils': './src/utils',
+          '@src': './src',
+          '@public': './public',
+          '@components': './src/components',
+          '@services': './src/services',
+          '@utils': './src/utils',
         },
+        cwd: 'babelrc',
+        extensions: ['.js', '.json', '.ts', '.tsx'],
       },
     ],
-    'react-native-reanimated/plugin',
   ],
 }
