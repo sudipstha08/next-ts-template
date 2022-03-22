@@ -13,8 +13,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@public": ["./public"],
+      "@components": ["./src/components"],
+      "@services": ["./src/services"],
+      "@utils": ["./src/utils"],
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules","babel.config.js",]
 }
