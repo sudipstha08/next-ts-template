@@ -1,4 +1,4 @@
-import { API } from '../utils/api'
+import { API } from '@utils'
 
 const fetchData = () => {
   return API.get('/home')
