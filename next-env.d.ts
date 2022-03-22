@@ -1,7 +1,5 @@
 /// <reference types="next" />
-/// <reference types="next/types/global" />
+/// <reference types="next/image-types/global" />
 
-// Allow SVG import as a module
-declare module '*.svg' {
-  export default JSX.IntrinsicElements.svg
-}
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/basic-features/typescript for more information.

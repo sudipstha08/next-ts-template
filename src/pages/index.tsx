@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Head from 'next/head'
 import { Button } from '@src/components'
 import FavIcon from '@public/assets/imgs/avatar.svg'
-import { test } from '@utils'
+import { theme } from '@utils'
 import { fetchData } from '@services'
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="home">
       <Head>
-        <title>Home Page</title>
+        <title>Index | Skeleton</title>
         <meta name="description" content="Index page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -23,7 +23,7 @@ const Home = () => {
         <div>Happy coding 😉</div>
         <Button label="hello">Say Hello</Button>
         <FavIcon />
-        {test}
+        {theme.base}
       </main>
     </div>
   )
