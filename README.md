@@ -11,18 +11,25 @@ This is a NextJS Template with Typescript
 | `yarn remove`  | remove a package           |
 | `yarn build`   | build application          |
 
+## How to get started ? :runner:
+- Clone `Repository`
+- Install dependencies `yarn install`
+- Create `.env` in the `root` directory. Take `.env.example` as reference
+- Run `development` server `yarn start-dev`
+
 ## Tech Stacks :package:
 
-|     Tech          |      Description           |
-|-------------------|----------------------------|
-| `next`            | server side rendering      |
-| `axios`           | promise based HTTP client  |
-| `react-query`     | data fetching library      |
-| `ant design`      | CSS library                |
-| `eslint/prettier` | linting                    |
+|     Tech            |      Description           |
+|---------------------|----------------------------|
+| `next`              | server side rendering      |
+| `axios`             | promise based HTTP client  |
+| `react-query`       | data fetching library      |
+| `ant design`        | CSS library                |
+| `eslint/prettier`   | linting                    |
 | `styled-components` | CSS on JS                |
 | `formik`            | form library             |
 | `yup`               | object schema validation |
+| `typescript`        | type safety for JS       |
 
 ## References
 1. https://nextjs.org/docs/getting-started
