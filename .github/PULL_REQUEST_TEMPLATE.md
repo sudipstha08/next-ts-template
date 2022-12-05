@@ -21,8 +21,10 @@ Explain the **motivation** for making this change: here are some points to help 
 
 ## Checklist
 
+## Screenshots
+
 <!-- Check completed item, when applicable, via: [X] -->
 
-- [ ] I have tested this on a device
-- [ ] I added the documentation in `README.md`
-- [ ] I updated the typed files (TS and Flow)
+- [ ] I have tested this on mobile device
+- [ ] I have tested this on PC
+- [ ] I have added the documentation in `README.md`
