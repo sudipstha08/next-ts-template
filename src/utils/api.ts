@@ -1,5 +1,8 @@
 import axios, { AxiosInstance, AxiosError, AxiosResponse } from 'axios'
 
+/**
+ * Create Axios instance with custom config
+ */
 const API: AxiosInstance = axios.create({
   baseURL: process.env.NEXT_PUBLIC_BASE_URL,
   headers: {
