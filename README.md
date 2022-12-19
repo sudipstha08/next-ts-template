@@ -27,8 +27,8 @@ This is a NextJS Template with Typescript
 | `ant design`        | CSS library                |
 | `eslint/prettier`   | linting                    |
 | `styled-components` | CSS on JS                |
-| `formik`            | form library             |
-| `yup`               | object schema validation |
+| `react-hook-form`   | form library             |
+| `zod`               | object schema validation |
 | `typescript`        | type safety for JS       |
 
 ## References
