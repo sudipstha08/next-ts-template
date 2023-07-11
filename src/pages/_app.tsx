@@ -1,7 +1,6 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import { QueryClient, QueryClientProvider } from 'react-query'
-import 'antd/dist/antd.css'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { GlobalStyles } from '../styles/globalStyles'
 
 const queryClient = new QueryClient({ defaultOptions: {} })

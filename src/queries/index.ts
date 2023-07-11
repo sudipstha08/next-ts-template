@@ -1,1 +1,5 @@
+/**
+ * Queries
+ */
+
 export * from './user'
