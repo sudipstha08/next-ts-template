@@ -1,10 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Head from 'next/head'
+import styled from 'styled-components'
 import { Button } from '@components'
 import FavIcon from '@public/assets/imgs/avatar.svg'
-import { theme } from '@utils'
-import { fetchData } from '@services'
-import styled from 'styled-components'
 
 const MainContainer = styled.main`
   padding: 1rem 2rem;
@@ -14,10 +12,6 @@ const MainContainer = styled.main`
 `
 
 const Home = () => {
-  useEffect(() => {
-    fetchData()
-  }, [])
-
   return (
     <div className="home">
       <Head>
@@ -32,7 +26,6 @@ const Home = () => {
         <div>
           <FavIcon />
         </div>
-        <div>{theme.base}</div>
         <div>Happy coding 😉</div>
       </MainContainer>
     </div>
