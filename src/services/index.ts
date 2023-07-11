@@ -1,1 +1,1 @@
-export { fetchData } from './home'
+export * from './user'
