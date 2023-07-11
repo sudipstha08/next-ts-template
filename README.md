@@ -34,7 +34,7 @@ This is a NextJS Template with Typescript
 ## References
 1. https://nextjs.org/docs/getting-started
 2. https://github.com/jquense/yup
-3. https://formik.org/
 4. https://react-query.tanstack.com/
-
+5. https://www.conventionalcommits.org/en/v1.0.0/
+   
 Happy coding :v:

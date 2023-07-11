@@ -12,9 +12,9 @@ Explain the **motivation** for making this change: here are some points to help 
 -->
 
 ### What's required for testing (prerequisites)?
-
+-
 ### What are the steps to reproduce (after prerequisites)?
-
+-
 ## Checklist
 <!-- Check completed item, when applicable, via: [X] -->
 
@@ -30,7 +30,7 @@ Explain the **motivation** for making this change: here are some points to help 
 - [ ] I have performed a self-review of my own code
 
 ## Screenshots (if any)
-
+-
 ## Test Plan
-
+-
 <!-- Demonstrate the code is solid. Example: The exact commands you ran and their output, screenshots / videos if the pull request changes UI. -->
