@@ -23,7 +23,7 @@ This is a NextJS Template with Typescript
 |---------------------|----------------------------|
 | `next`              | server side rendering      |
 | `axios`             | promise based HTTP client  |
-| `react-query`       | data fetching library      |
+| `@tanstack/react-query`       | data fetching library      |
 | `ant design`        | CSS library                |
 | `eslint/prettier`   | linting                    |
 | `styled-components` | CSS on JS                |

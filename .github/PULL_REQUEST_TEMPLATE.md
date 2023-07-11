@@ -21,7 +21,7 @@ Explain the **motivation** for making this change: here are some points to help 
 
 ## Checklist
 
-## Screenshots
+## Screenshots (if any)
 
 <!-- Check completed item, when applicable, via: [X] -->
 
