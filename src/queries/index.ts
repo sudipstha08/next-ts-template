@@ -1,2 +1,5 @@
-export * from './api'
+/**
+ * Queries
+ */
+
 export * from './user'

@@ -19,22 +19,22 @@ This is a NextJS Template with Typescript
 
 ## Tech Stacks :package:
 
-| Tech                | Description               |
-| ------------------- | ------------------------- |
-| `next`              | server side rendering     |
-| `axios`             | promise based HTTP client |
-| `react-query`       | data fetching library     |
-| `ant design`        | CSS library               |
-| `eslint/prettier`   | linting                   |
-| `styled-components` | CSS on JS                 |
-| `react-hook-form`   | form library              |
-| `zod`               | object schema validation  |
-| `typescript`        | type safety for JS        |
+|     Tech            |      Description           |
+|---------------------|----------------------------|
+| `next`              | server side rendering      |
+| `axios`             | promise based HTTP client  |
+| `@tanstack/react-query`       | data fetching library      |
+| `ant design`        | CSS library                |
+| `eslint/prettier`   | linting                    |
+| `styled-components` | CSS on JS                |
+| `react-hook-form`   | form library             |
+| `zod`               | object schema validation |
+| `typescript`        | type safety for JS       |
 
 ## References
 1. https://nextjs.org/docs/getting-started
 2. https://github.com/jquense/yup
-3. https://formik.org/
 4. https://react-query.tanstack.com/
-
+5. https://www.conventionalcommits.org/en/v1.0.0/
+   
 Happy coding :v:
