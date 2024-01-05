@@ -1,21 +1,19 @@
-import {ReactNode} from "react"
-import { Metadata } from "next"
+import { ReactNode } from 'react'
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Next template',
   description: 'Template',
 }
 
-export default function RootLayout({
-  children,
-}: {
+interface RootLayoutProps {
   children: ReactNode
-}) {
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html>
-      <body>
-        {children}
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   )
 }
