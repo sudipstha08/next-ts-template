@@ -1,2 +1,1 @@
-export * from './api'
-export * from './storage'
+export const utils = 'utils'

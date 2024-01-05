@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
-import { QUERY_KEYS } from '@constants'
 import { userService } from '@services'
+import { QUERY_KEYS } from '@constants'
 
 /**
  * [useUser]
@@ -9,11 +9,10 @@ import { userService } from '@services'
  */
 
 const useUser = ({ enabled }: { enabled: boolean }) => {
-  return useQuery([QUERY_KEYS.FETCH_USER], userService.fetchUser, {
-    enabled,
-    select: data => {
-      return data
-    },
+  return useQuery({
+    enabled: enabled,
+    queryKey: [QUERY_KEYS.FETCH_USER],
+    queryFn: userService.fetchUser,
   })
 }
 

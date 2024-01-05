@@ -3,13 +3,13 @@ This is a NextJS Template with Typescript
 
 ## Basic commands :wrench:
 
-|     Commands   |      Description           |
-| -------------- |--------------------------- |
-| `yarn dev`     | run the development server |
-| `yarn install` | install dependencies       |
-| `yarn lint`	   | run linter                 |
-| `yarn remove`  | remove a package           |
-| `yarn build`   | build application          |
+| Commands         | Description                |
+| ---------------- | -------------------------- |
+| `yarn start-dev` | run the development server |
+| `yarn install`   | install dependencies       |
+| `yarn lint`      | run linter                 |
+| `yarn remove`    | remove a package           |
+| `yarn build`     | build application          |
 
 ## How to get started ? :runner:
 - Clone `Repository`
