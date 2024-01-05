@@ -3,13 +3,13 @@ This is a NextJS Template with Typescript
 
 ## Basic commands :wrench:
 
-|     Commands   |      Description           |
-| -------------- |--------------------------- |
-| `yarn dev`     | run the development server |
-| `yarn install` | install dependencies       |
-| `yarn lint`	   | run linter                 |
-| `yarn remove`  | remove a package           |
-| `yarn build`   | build application          |
+| Commands         | Description                |
+| ---------------- | -------------------------- |
+| `yarn start-dev` | run the development server |
+| `yarn install`   | install dependencies       |
+| `yarn lint`      | run linter                 |
+| `yarn remove`    | remove a package           |
+| `yarn build`     | build application          |
 
 ## How to get started ? :runner:
 - Clone `Repository`
@@ -19,17 +19,17 @@ This is a NextJS Template with Typescript
 
 ## Tech Stacks :package:
 
-|     Tech            |      Description           |
-|---------------------|----------------------------|
-| `next`              | server side rendering      |
-| `axios`             | promise based HTTP client  |
-| `react-query`       | data fetching library      |
-| `ant design`        | CSS library                |
-| `eslint/prettier`   | linting                    |
-| `styled-components` | CSS on JS                |
-| `react-hook-form`   | form library             |
-| `zod`               | object schema validation |
-| `typescript`        | type safety for JS       |
+| Tech                | Description               |
+| ------------------- | ------------------------- |
+| `next`              | server side rendering     |
+| `axios`             | promise based HTTP client |
+| `react-query`       | data fetching library     |
+| `ant design`        | CSS library               |
+| `eslint/prettier`   | linting                   |
+| `styled-components` | CSS on JS                 |
+| `react-hook-form`   | form library              |
+| `zod`               | object schema validation  |
+| `typescript`        | type safety for JS        |
 
 ## References
 1. https://nextjs.org/docs/getting-started
