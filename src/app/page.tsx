@@ -8,7 +8,8 @@ export const metadata: Metadata = {
 export default async function Home() {
   return (
     <main>
-      <p>Next TS template</p>
+      <h1>Next TS template</h1>
+      <p>Happy coding</p>
     </main>
   )
 }

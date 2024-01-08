@@ -10,7 +10,6 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    // 'plugin:import/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
@@ -70,6 +69,5 @@ module.exports = {
     'react/jsx-uses-react': 0,
     'react/react-in-jsx-scope': 0,
     'import/extensions': 0,
-    // 'import/no-unresolved': 0,
   },
 }
