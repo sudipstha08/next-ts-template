@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-interface IButton    {
+interface IButton {
   label: string
 }
 
