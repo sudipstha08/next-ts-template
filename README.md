@@ -1,4 +1,4 @@
-## React TS template :books:
+## NextJs TS template :books:
 
 ## Basic commands :wrench:
 
@@ -10,20 +10,23 @@
 | `yarn remove`    | remove a package           |
 | `yarn build`     | build application          |
 
+
+## How to get started ?
+- Install dependencies `yarn install`
+- Run server `yarn start-dev`
+
 ## Tech Stacks :package:
 
-| tech          | description       | Links                                              |
-| ------------- | ----------------- | -------------------------------------------------- |
-| `vite`        | FE Tooling        | [Vite](https://vitejs.dev/)                        |
-| `react`       | js library        | [React](https://react.dev/)                        |
-| `typescript`  | types             | [Typescript](https://www.typescriptlang.org/docs/) |
-| `axios`       | HTTP client       | [Axios](https://axios-http.com/)                   |
-| `react-query` | data fetching     | [React Query](https://tanstack.com/query/latest)   |
-| `eslint`      | linting           | [Eslint](https://eslint.org/)                      |
-| `prettier`    | code formatter    | [Prettier](https://prettier.io/)                   |
-| `commitlint`  | commit convebtion | [Commitlint](https://commitlint.js.org/)           |
-| `husky`       | pre-cmmit hooks   | [Husky](https://typicode.github.io/husky/)         |
-| `stylelint`   | css linter        | [Stylelint](https://stylelint.io/)                 |
+| tech         | description       | Links                                              |
+| ------------ | ----------------- | -------------------------------------------------- |
+| `nextjs`     | react framework   | [Next.JS](https://nextjs.org/)                     |
+| `typescript` | types             | [Typescript](https://www.typescriptlang.org/docs/) |
+| `axios`      | HTTP client       | [Axios](https://axios-http.com/)                   |
+| `eslint`     | linting           | [Eslint](https://eslint.org/)                      |
+| `prettier`   | code formatter    | [Prettier](https://prettier.io/)                   |
+| `commitlint` | commit convebtion | [Commitlint](https://commitlint.js.org/)           |
+| `husky`      | pre-cmmit hooks   | [Husky](https://typicode.github.io/husky/)         |
+| `stylelint`  | css linter        | [Stylelint](https://stylelint.io/)                 |
 
 ## Motivation
 
