@@ -3,10 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "start-dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "eslint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "fix": "yarn lint:ts --fix",
+    "git-add": "git add .",
+    "typecheck": "tsc-files --noEmit",
+    "postformat": "prettier . --write",
+    "lint:css": "npx stylelint --ignore-path .gitignore '**/*.{css,js,tsx,ts}'",
+    "lint-staged": "lint-staged",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^18",

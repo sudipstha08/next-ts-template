@@ -1,0 +1,4 @@
+{
+  "*.{js,jsx}": ["yarn stylelint", "yarn lint", "git-add"],
+  "*.{ts,tsx}": ["yarn stylelint", "yarn lint", "git-add"]
+}
