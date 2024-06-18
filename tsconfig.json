@@ -1,68 +1,26 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
-    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "noImplicitAny": false,
-    "baseUrl": ".",
-    "paths": {
-      "@public": [
-        "./public"
-      ],
-      "@components": [
-        "./src/components"
-      ],
-      "@services": [
-        "./src/services"
-      ],
-      "@utils": [
-        "./src/utils"
-      ],
-      "@constants": [
-        "./src/constants"
-      ],
-      "@hooks": [
-        "./src/hooks"
-      ],
-      "@interfaces": [
-        "./src/interfaces"
-      ],
-      "@store": [
-        "./src/store"
-      ],
-      "@src/*": [
-        "./src/*"
-      ]
-    },
     "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "babel.config.js"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

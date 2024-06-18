@@ -1,5 +1,0 @@
-/**
- * Queries
- */
-
-export * from './user'
