@@ -6,8 +6,8 @@
     "start-dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "eslint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "next:lint": "next lint",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
     "fix": "yarn lint:ts --fix",
     "git-add": "git add .",
     "typecheck": "tsc-files --noEmit",
@@ -17,6 +17,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
